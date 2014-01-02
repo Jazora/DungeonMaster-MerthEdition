@@ -1,0 +1,40 @@
+// DM Environment file for Cave Crawlers.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "NEWHUD"
+#define FILE_DIR "Sounds"
+#define FILE_DIR "Temp Icons Etc"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Admin.dm"
+#include "AntiSpam.dm"
+#include "Bugs.dm"
+#include "Combats.dm"
+#include "DamagedParts.dm"
+#include "History.dm"
+#include "IMPORTANT.dm"
+#include "Login.dm"
+#include "make_vote.dm"
+#include "Mobs.dm"
+#include "Other Librarys Needed.dm"
+#include "Path3.dm"
+#include "plugin.dm"
+#include "Saved Code.dm"
+#include "Selection.dm"
+#include "Turfs.dm"
+#include "Vars.dm"
+#include "Verbs.dm"
+#include "World.dm"
+#include "BackGrounds.dms"
+#include "Maps\Map.dmp"
+// END_INCLUDE
+

@@ -1,0 +1,25 @@
+"a" = (/turf/grounds/DetailedFloor,/area)
+"b" = (/turf/grounds/DetailedWall,/area)
+"c" = (/turf/grounds/waters/water,/area)
+"d" = (/obj/Items/Furniture/Pillars/DwarfPillar,/turf/grounds/DetailedFloor,/area)
+"e" = (/obj/Items/Furniture/Chairs/GoldenThrone,/mob/Monsters/DemonNPC,/turf/grounds/DetailedFloor,/area)
+"f" = (/obj/Items/Furniture/Doors/WoodenDoor,/turf/grounds/DetailedFloor,/area)
+"g" = (/obj/Items/Furniture/Doors/MetalDoor,/turf/grounds/DetailedFloor,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+abbcbbcbcbbcbba
+abcccccccccccba
+acccbccbccbccca
+abcbbdbbbdbbcba
+abccbaaeaabccba
+acccdaaaaadccca
+accbbaaaaabbcca
+accbbaaaaabbcca
+abccdaaaaadccba
+abccbaaaaabccba
+accbbdbfbdbbcca
+abccbccaccbccba
+abbcccbgbcccbba
+aaaaaaaaaaaaaaa
+"}

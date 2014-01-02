@@ -1,0 +1,43 @@
+"a" = (/turf/grounds/WoodWall{opacity = 0},/area)
+"b" = (/turf/grounds/WoodWall,/area)
+"c" = (/mob/Monsters/NPCGoblin2{tag = "icon-Normal (NORTH)"; icon_state = "Normal"; dir = 1},/turf/grounds/WoodFloor,/area)
+"d" = (/turf/grounds/WoodFloor,/area)
+"e" = (/obj/Items/Furniture/Doors/WoodenDoor,/turf/grounds/WoodFloor,/area)
+"f" = (/obj/Items/Furniture/Ovens/Oven,/turf/grounds/WoodFloor,/area)
+"g" = (/obj/Items/Furniture/Beds/LeatherBed,/turf/grounds/WoodFloor,/area)
+"h" = (/obj/Bloods/Blood3,/obj/Items/Bones/KoboldHead,/turf/grounds/WoodFloor,/area)
+"i" = (/obj/Bloods/Blood2,/obj/Items/Bones/Bones,/turf/grounds/WoodFloor,/area)
+"j" = (/obj/Items/Furniture/Tables/Table,/obj/Items/Food/Meats/UnCookedKoboldMeat,/turf/grounds/WoodFloor,/area)
+"k" = (/mob/Monsters/NPCGoblin,/turf/grounds/WoodFloor,/area)
+"l" = (/obj/Bloods/Blood1,/obj/Items/Bones/BloodyLeg,/turf/grounds/WoodFloor,/area)
+"m" = (/obj/Items/Furniture/Tables/Table,/obj/Items/Food/Meats/UnCookedDeerMeat,/turf/grounds/WoodFloor,/area)
+"n" = (/obj/Items/Furniture/Tables/Table,/obj/Bloods/Blood3,/obj/Items/Food/Meats/UnCookedWolfMeat,/turf/grounds/WoodFloor,/area)
+"o" = (/obj/Bloods/Blood3,/obj/Items/Skins/WolfFur,/turf/grounds/WoodFloor,/area)
+"p" = (/obj/Items/gems/EmeraldRing,/obj/Items/ores/GoldNugget,/turf/grounds/WoodFloor,/area)
+"q" = (/obj/Items/woods/wood,/turf/grounds/WoodFloor,/area)
+"r" = (/obj/Items/gems/Ruby,/obj/Items/Ingots/GoldBar,/obj/Items/ores/silver,/turf/grounds/WoodFloor,/area)
+"s" = (/obj/Items/Ingots/SilverBar,/turf/grounds/WoodFloor,/area)
+"t" = (/obj/Items/Furniture/Posts/WoodTrainingPost,/turf/grounds/WoodFloor,/area)
+"u" = (/obj/Items/Ingots/SilverBar,/obj/Items/Potions/EmptyBottle,/turf/grounds/WoodFloor,/area)
+"v" = (/obj/Items/ores/metal,/obj/Items/ores/stone,/turf/grounds/WoodFloor,/area)
+"w" = (/mob/Monsters/NPCGoblin2,/turf/grounds/WoodFloor,/area)
+
+(1,1,1) = {"
+aaaaaabcdcbaaaaaa
+acddddbeeebddddca
+adbbbebdddbebbbda
+adbddddddddddfbda
+adbdgdgdddhdijbda
+adbdddddkdddlmbda
+adbdgdgddddddnbda
+adbddddddddkdobda
+adbddkddddddddbda
+adbdddddddddddbda
+adbdddddddddddbda
+adbpdddddddddqbda
+adbrsdddddtdtqbda
+adbuvddddddddqbda
+adbbbebdddbebbbda
+awddddbeeebddddwa
+aaaaaabwdwbaaaaaa
+"}
