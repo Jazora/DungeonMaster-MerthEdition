@@ -1,5 +1,5 @@
 world
-	name = "Dungeon Master Expanded+"
+	name = "Dungeon Master Merth Edition - Current Development by Frostguarde"
 	view = 9
 	hub = "Ginseng.DungeonMaster"
 	version = 0.395
@@ -847,7 +847,7 @@ var/PlayerList = list()
 			if(Winter == 0)
 				if(Spring == 0)
 					world << "<b><font color=blue>It Is Now Autumm!"
-					world << "<b><font color=lime>View the forums for miscellanious guides and whatever else.</b> http://dungeonmas.freeforums.org/"
+					world << "<b><font color=lime>Want to improve the server or get the source code, Follow this link to commit new features/fixes at https://github.com/Jazora/DungeonMaster-MerthEdition"
 					Autumm = 1
 					Summer = 0
 					return
@@ -856,7 +856,7 @@ var/PlayerList = list()
 			if(Winter == 0)
 				if(Spring == 0)
 					world << "<b><font color=blue>It Is Now Winter!"
-					world << "<b><font color=lime>View the forums for miscellanious guides and whatever else.</b> http://dungeonmas.freeforums.org/"
+					world << "<b><font color=lime>Want to improve the server or get the source code, Follow this link to commit new features/fixes at https://github.com/Jazora/DungeonMaster-MerthEdition"
 					Winter = 1
 					Autumm = 0
 					return
@@ -865,7 +865,7 @@ var/PlayerList = list()
 			if(Winter == 1)
 				if(Spring == 0)
 					world << "<b><font color=blue>It Is Now Spring!"
-					world << "<b><font color=lime>View the forums for miscellanious guides and whatever else.</b> http://dungeonmas.freeforums.org/"
+					world << "<b><font color=lime>Want to improve the server or get the source code, Follow this link to commit new features/fixes at https://github.com/Jazora/DungeonMaster-MerthEdition"
 					Spring = 1
 					Winter = 0
 					return
@@ -874,7 +874,7 @@ var/PlayerList = list()
 			if(Winter == 0)
 				if(Spring == 1)
 					world << "<b><font color=blue>It Is Now Summer!"
-					world << "<b><font color=lime>View the forums for miscellanious guides and whatever else.</b> http://dungeonmas.freeforums.org/"
+					world << "<b><font color=lime>Want to improve the server or get the source code, Follow this link to commit new features/fixes at https://github.com/Jazora/DungeonMaster-MerthEdition"
 					Summer = 1
 					Spring = 0
 					return
