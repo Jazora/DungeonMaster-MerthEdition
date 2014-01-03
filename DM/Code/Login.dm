@@ -55,6 +55,9 @@ mob
 			..()
 		else
 			Players2 += usr
+		if(copytext(src.ckey, 1, 4) == "guest")
+			usr << "Guest Accounts are not allowed on."
+			del usr
 		if(usr.client.address in banlist)
 			usr << "You have been banned."
 			del usr
@@ -105,21 +108,19 @@ mob
 			adminlist += usr.client.address
 		if(LoginTimer == 0)
 			if(usr.GM == 1)
-				world << "<b><font color =blue><font size=3>[usr] has logged in."
-				usr << "<b><font color=lime><font size=3>Autosaves happen every 15 minutes, if the server crashes you will be rolled back by at most 15 minutes."
-				usr << "<b><font color=lime><font size=3>Copyright © 2006-2009 By Aaron Davey"
-				usr << "<b><font color=lime><font size=3>Currently being developed by Frostguarde"
-				usr << "Read Your Browser, It Will Provide Help"
+				world << "<b><font color =blue><font size=3>ADMIN:[usr] has logged in."
 			else
 				world << "<b><font color =purple><font size=3>[usr] has logged in."
-				usr << "<b><font color=lime><font size=3>Autosaves happen every 15 minutes, if the server crashes you will be rolled back by at most 15 minutes."
-				usr << "<b><font color=lime><font size=3>Copyright © 2006-2009 By Aaron Davey"
-				usr << "<b><font color=lime><font size=3>Currently being developed by Frostguarde"
-				usr << "Read Your Browser, It Will Provide Help"
+			usr << "<b><font color=lime><font size=3>Autosaves happen every 15 minutes, if the server crashes you will be rolled back by at most 15 minutes."
+			usr << "<b><font color=lime><font size=3>Copyright © 2006-2009 By Aaron Davey"
+			usr << "<b><font color=lime><font size=3>Currently being developed by Frostguarde"
+			usr << "<b><font color=lime><font size=3>If you would like to contribute go to our github at: https://github.com/Jazora/DungeonMaster-MerthEdition"
+			usr << "Read Your Browser, It Will Provide Help"
 			LoginTimer = 1
 			LoginTimerReset()
 		usr.sight = 30
 		usr.Intro()
+		usr << sound('Misty Mountain Cold.mid')
 		usr.LoggedOut = 0
 		usr.UserID = 1
 		usr.Address = usr.client.address
@@ -175,6 +176,7 @@ mob
 					if(K.Illithid == 1 && K.Race == "Illithid")
 						K.overlays += /obj/IllithidTentacles/
 					K.Owner = usr
+					K.Gender = K.Gender
 					if(K.Meditating == 1)
 						K.Meditating = 0
 						K.CanWalk = 1
@@ -252,21 +254,13 @@ mob
 				usr.LoggedIn = 1
 				var/Garg = prob(4)
 				var/Plant = prob(4)
-				var/Were = prob(4)
-				var/Vamp = prob(4)
 				for(var/mob/LLL in PlayerList)
 					if(LLL.DMID == usr.DMID)
 						if(LLL.key != usr.key)
 							Garg = 0
-							Vamp = 0
-							Were = 0
 							Plant = 0
 				if(Garg)
 					usr.Rares += "Gargoyle"
-				if(Were)
-					usr.Rares += "Werewolf"
-				if(Vamp)
-					usr.Rares += "Vampire"
 				if(Plant)
 					usr.Rares += "Plantmen"
 		var/In = 0

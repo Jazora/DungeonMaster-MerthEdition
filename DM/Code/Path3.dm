@@ -50,24 +50,3 @@ mob
 
 
 		spawn(src.Delay) WalkTo()
-
-
-
-/**
-proc/WalkTo()
-		if(src)
-			if(src.Fainted == 0)
-				if(src.CanWalk == 1)
-					if(src.Freeze == 1)
-						return
-					if (destination)
-						base_StepTowards(destination)
-						if (src.loc == destination)
-							destination = null
-
-
-
-
-		spawn(4) WalkTo()
-
-**/

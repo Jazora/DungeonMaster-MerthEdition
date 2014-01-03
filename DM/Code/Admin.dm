@@ -895,6 +895,24 @@ Admin/verb
 		usr.client.perspective = MOB_PERSPECTIVE
 
 
+	PickUp(obj/C as mob in view())
+		set category="Commands"
+		set hidden=TRUE
+		for(var/mob/Monsters/M in usr.Selected)
+			if(C in view(1,M))
+				M.destination = null
+				if(C.suffix == null)
+					if(M.weight <= M.weightmax)
+						C.loc = M
+						C.suffix = "(Carrying)"
+						M.weight += C.weight
+						return
+					else
+						if(M.Wagon == 0)
+							usr << "[M] : I cant Carry Too Much!"
+						return
+
+
 	Delete(obj/M as obj|turf|mob in view())
 		set category="Admin"
 		if(ismob(M.Owner))

@@ -22,6 +22,7 @@
 #include "Code\Combats.dm"
 #include "Code\DamagedParts.dm"
 #include "Code\Do List.dm"
+#include "Code\HandleSounds.dm"
 #include "Code\History.dm"
 #include "Code\IMPORTANT.dm"
 #include "Code\Login.dm"

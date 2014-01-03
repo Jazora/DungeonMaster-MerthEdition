@@ -4198,7 +4198,7 @@ mob/verb/DeclareLeader()
 								break
 
 				else
-					usr << "Need a Gold Crown First!"
+					usr << "Need a Crown First!"
 		if(M.UsesPoison == 0)
 			for(var/obj/Items/Armours/Helmets/Crown/C in M)
 				if(C in M)
@@ -4275,7 +4275,7 @@ mob/verb/DeclareLeader()
 								break
 
 				else
-					usr << "Need a Gold Crown First!"
+					usr << "Need a Crown First!"
 
 mob/verb/Who()
 	var/PlayerCount
@@ -6897,8 +6897,7 @@ mob/verb/Interact()
 							menu2 += "Untie"
 							if(C.Puller != M)
 								menu2 += "Pull"
-							if(M.Human == 1)
-								menu2 += "Torture"
+							menu2 += "Torture"
 						if(C.Puller == M)
 							menu2 += "Stop Pulling"
 						if(M.Plantman == 1)
@@ -6907,7 +6906,6 @@ mob/verb/Interact()
 							menu2 += "Trade With [C]"
 						if(M.Vampire == 0)
 							if(M.Using == null)
-
 								menu2 += "Breed With [C]"
 						if(M.Werepowers == 1)
 							menu2 += "Bite [C]"
