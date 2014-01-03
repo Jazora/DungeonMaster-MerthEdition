@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: Code\Path3.dm;Code\Login.dm;Code\World.dm;Code\HandleSounds.dm;Code\Mobs.dm;Code\DamagedParts.dm;Code\Combats.dm;Code\Verbs.dm;Player.dmi;Code\Do List.dm;Code\IMPORTANT.dm;Code\make_vote.dm;Code\Notes.dm;Code\Admin.dm;Code\Turfs.dm;Experimental\Turfs.dm;Code\plugin.dm
+WINDOW: Code\Path3.dm;Code\Login.dm;Code\World.dm;Code\HandleSounds.dm;Code\Mobs.dm;Code\DamagedParts.dm;Code\Combats.dm;Code\Verbs.dm;Player.dmi;Code\Do List.dm;Code\IMPORTANT.dm;Code\make_vote.dm;Code\Notes.dm;Code\Admin.dm;Code\Turfs.dm
 LAST_COMPILE_VERSION: 501.1217
 DIR: Code Experimental 
 FILE: Code\Admin.dm
-LAST_COMPILE_TIME: 1388707239
+LAST_COMPILE_TIME: 1388708857
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
